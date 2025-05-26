@@ -55,7 +55,7 @@ root@047cca61b24a:~# cat memory_logs.txt
 copy file into backup not in same directory
 #### Command
 ```
-root@047cca61b24a:~# cp merged_response.txt alpha/merged_response_backup.txt
+cp merged_response.txt alpha/merged_response_backup.txt
 ```
 #### Response
 ```
