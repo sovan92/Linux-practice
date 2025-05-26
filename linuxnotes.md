@@ -34,5 +34,11 @@ Combine the contents of multiple files.
 ```
 root@047cca61b24a:~# cat db_response.txt health_response.txt > merged_response.txt
 ```
-
+### grep 
+Filter out all the contents of the file
+```
+cat merged_response.txt | grep memory
+root@047cca61b24a:~# cat merged_response.txt | grep memory
+{"status": "healthy", "database": "connected", "cache": "available", <b>"memory"</b>: "65%"}
+```
 
