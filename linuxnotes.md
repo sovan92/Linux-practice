@@ -41,12 +41,27 @@ cat merged_response.txt | grep memory
 root@047cca61b24a:~# cat merged_response.txt | grep memory
 {"status": "healthy", "database": "connected", "cache": "available", "memory": "65%"}
 ```
-#### Grep 2
+### Grep 2
 Output the contents of the grep into a file
 ```
 root@047cca61b24a:~# cat merged_response.txt | grep memory > memory_logs.txt
 root@047cca61b24a:~# cat me
 memory_logs.txt      merged_response.txt  
 root@047cca61b24a:~# cat memory_logs.txt 
+{"status": "healthy", "database": "connected", "cache": "available", "memory": "65%"}
+```
+
+### CP
+copy file into backup not in same directory
+#### Command
+```
+root@047cca61b24a:~# cp merged_response.txt alpha/merged_response_backup.txt
+```
+#### Response
+```
+root@047cca61b24a:~# cat alpha/merged_response_backup.txt 
+HTTP/1.1 200 OK
+Server: PostgreSQL
+Content-Type: application/json
 {"status": "healthy", "database": "connected", "cache": "available", "memory": "65%"}
 ```
