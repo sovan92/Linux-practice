@@ -13,4 +13,22 @@ Imagine you are a junior developer , figure out application logs .
 root@047cca61b24a:~# pwd
 /root
 ```
+### Ls -l 
+You can display files in a directory and their necessary permissions. 
+```
+root@047cca61b24a:~# ls -l 
+total 8
+-rw-r--r-- 1 root root 66 Jan 23 11:48 db_response.txt
+-rw-r--r-- 1 root root 86 Jan 23 11:48 health_response.txt
+```
+### cat 
+Display the content of a file. Cat means concatanate. 
+```
+root@047cca61b24a:~# cat db_response.txt 
+HTTP/1.1 200 OK
+Server: PostgreSQL
+Content-Type: application/json
+```
+
+
 
