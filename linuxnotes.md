@@ -29,6 +29,10 @@ HTTP/1.1 200 OK
 Server: PostgreSQL
 Content-Type: application/json
 ```
-
+#### Cat 2 
+Combine the contents of multiple files. 
+```
+root@047cca61b24a:~# cat db_response.txt health_response.txt > merged_response.txt
+```
 
 
