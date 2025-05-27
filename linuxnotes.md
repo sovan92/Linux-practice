@@ -102,6 +102,30 @@ find . -name "*me*" | grep memory
 ```
 diff s1.txt s2.txt 
 ```
+### Get metadata about a running server 
+Gets you metadata from the running server. 
+#### Request 
+```
+curl -I http://localhost:5432
+```
+#### Response
+```
+HTTP/1.1 200 OK
+Server: PostgreSQL
+Content-Type: application/json
+```
+#### Text Editor Commands
+start file -  vim  
+go back - :q! / :wq
+save if changes exist :x 
+save and quit :wq / ZZ
+
+#### File permissions
+All read permissions for user, group and others
+```
+chmod 444 db.conf 
+```
+
 
 
 
