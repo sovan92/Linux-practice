@@ -65,7 +65,7 @@ Server: PostgreSQL
 Content-Type: application/json
 {"status": "healthy", "database": "connected", "cache": "available", "memory": "65%"}
 ```
-###  Count errors wc 
+###  Count errors wc Word Count
 #### Command 
 ```
 cat alpha/merged_response_backup.txt | grep "connected" | wc -l
@@ -74,7 +74,7 @@ cat alpha/merged_response_backup.txt | grep "connected" | wc -l
 ````
 1
 ````
-### Find the conf file
+### Find the conf file 
 #### Find the file in the current directory
 ```
 find . -name "*me*"   
