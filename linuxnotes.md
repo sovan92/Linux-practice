@@ -125,6 +125,9 @@ All read permissions for user, group and others
 ```
 chmod 444 db.conf 
 ```
+Read write and execute chmod 777 db.conf 
+
+
 
 
 
