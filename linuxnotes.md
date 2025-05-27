@@ -89,4 +89,15 @@ find / -name "*me*"
 ./memory_logs.txt
 ./merged_response.txt
 ```
+#### Search the conf file 
+```
+find . -name "*me*" | grep memory
+```
+#### Response
+```
+./memory_logs.txt
+```
+
+
+
 
