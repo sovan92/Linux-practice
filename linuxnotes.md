@@ -21,6 +21,7 @@ total 8
 -rw-r--r-- 1 root root 66 Jan 23 11:48 db_response.txt
 -rw-r--r-- 1 root root 86 Jan 23 11:48 health_response.txt
 ```
+** Identify files as - , directory as d and virtual links as i. 
 ### cat 
 Display the content of a file. Cat means concatanate. 
 ```
