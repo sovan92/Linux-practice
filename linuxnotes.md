@@ -97,6 +97,11 @@ find . -name "*me*" | grep memory
 ```
 ./memory_logs.txt
 ```
+### Diff between 2 files 
+#### 
+```
+diff s1.txt s2.txt 
+```
 
 
 
