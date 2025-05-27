@@ -116,17 +116,25 @@ Server: PostgreSQL
 Content-Type: application/json
 ```
 #### Text Editor Commands
-start file -  vim  
-go back - :q! / :wq
-save if changes exist :x 
-save and quit :wq / ZZ
+- start file -  vim  
+- go back - :q! / :wq
+- save if changes exist :x 
+- save and quit :wq / ZZ
 
 #### File permissions
 All read permissions for user, group and others
 ```
 chmod 444 db.conf 
 ```
-Read write and execute chmod 777 db.conf 
+Read write and execute 
+```
+chmod 777 db.conf
+```
+Read and write
+
+```
+chmod 666 db.conf
+```
 
 
 
