@@ -154,7 +154,10 @@ So this part silently tries to download the script located at https://astral.sh/
 2. | sh
 This pipes (|) the downloaded script to the sh shell, meaning the script will be executed immediately in a shell environment.
 
-
+### To check which shell is running (bash or zsh) 
+```
+echo $0
+```
 
 
 
