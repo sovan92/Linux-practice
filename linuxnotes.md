@@ -136,6 +136,23 @@ Read and write
 chmod 666 db.conf
 ```
 
+### Curl commands 
+
+1. curl -LsSf https://astral.sh/uv/install.sh
+This part fetches a script from the URL. The flags mean:
+
+-L: Follow redirects (in case the URL redirects somewhere else).
+
+-s: Silent mode (don’t show progress meter).
+
+-S: When used with -s, it makes curl show errors if they occur.
+
+-f: Fail silently on server errors (like 404 or 500).
+
+So this part silently tries to download the script located at https://astral.sh/uv/install.sh, and errors out cleanly if it fails.
+
+2. | sh
+This pipes (|) the downloaded script to the sh shell, meaning the script will be executed immediately in a shell environment.
 
 
 
